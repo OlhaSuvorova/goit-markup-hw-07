@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #ffffff;
+  --color-main-text: #2e2f42;
+  --color-main-cloud: #f4f4fd;
+  --color-secondary-text: #434455;
+  --color-border: #e7e9fc;
+  --color-light-clate: #8e8f99;
+  --accent: #4d5ae5;
+  --accent-pressed-state: #404bbf;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-secondary-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 430px) {
+  .container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+}
