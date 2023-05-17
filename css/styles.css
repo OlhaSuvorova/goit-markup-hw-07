@@ -42,15 +42,40 @@ img {
 .link {
   text-decoration: none;
 }
+
 .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 430px) {
+  .container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+}
+
+/* .container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   overflow: hidden;
   white-space: nowrap;
   width: 1px;
@@ -60,7 +85,7 @@ img {
   padding: 0;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-}
+} */
 
 /* ............................Logotype................... */
 .logotype {
@@ -94,7 +119,17 @@ img {
   color: var(--color-main-cloud);
 }
 /* .......................Header.................... */
-.page-header {
+@media screen and (max-width: 768px) {
+}
+.menu {
+  display: none;
+}
+
+.nav-address {
+  display: none;
+}
+
+/* .page-header {
   padding: 24px 0;
   border-bottom: 1px solid var(--color-border);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -167,10 +202,10 @@ img {
 
 .current-page {
   color: var(--accent-pressed-state);
-}
+} */
 
 /* .......................Contact..................... */
-.contacts {
+/* .contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -198,7 +233,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
   margin-right: 0;
-}
+} */
 
 /* ........................Hero................. */
 .hero {
