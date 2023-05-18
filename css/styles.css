@@ -208,6 +208,18 @@ color: var(--color-main-text);
   color: var(--accent-pressed-state);
 }
 
+.nav-address-mobile {
+  font-style: normal;
+  }
+
+.mob-item {
+    padding-left: 40px;
+    
+}
+.mob-item:not(:first-child) {
+  padding-top: 40px;
+}
+
 .contacts-mobile-tel {
   font-weight: 700;
 font-size: 36px;
@@ -215,20 +227,27 @@ line-height: 1.11;
 
 letter-spacing: 0.02em;
 text-transform: capitalize;
+}
 
+.color-contacts {
+  color: var(--color-secondary-text);
+   transition: color var(--transition);
+}
+
+.color-contacts:focus {
 color: var(--accent);
+}
+
+.contacts-mobile-email {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
 
 }
 
-.nav-address-mobile {
-  font-style: normal;
-  
-}
 
-.mob-item {
-  padding-bottom: 40px;
-  padding-left: 40px;
-}
 
 
 /* .page-header {
