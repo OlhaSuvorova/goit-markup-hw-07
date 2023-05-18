@@ -45,7 +45,7 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open js-open-menu">
           <svg class="mobile-menu-open_icon" width="32" height="22">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
@@ -69,9 +69,18 @@
         </address>
       </div>
 
-      <div class="mobile-menu">
+      <!-- ======================================Mobile Menu================== -->
+      <!-- <div class="menu-container" id="menu-container" data-menu>
+<div class="navigation"></div>
+<div class="contacts"></div>
+<div class="socials"></div>
+</div> -->
+
+      <!-- ======================================New Mobile Menu================== -->
+
+      <div class="mobile-menu js-menu-container">
         <div class="container mobile-menu-container">
-          <button type="button" class="mobile-menu-close-btn">
+          <button type="button" class="mobile-menu-close-btn js-close-menu">
             <svg class="mobile-menu-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close-modal"></use>
             </svg>
@@ -85,25 +94,60 @@
             </li>
             <li class="site-nav-link-mobile link"><a href=""></a>Contacts</li>
           </ul>
+
+          <address class="nav-address-mobile">
+            <ul class="address-mobile list">
+              <li class="contacts-mobile mob-item">
+                <a
+                  class="contacts-mobile-tel color-contacts link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="contacts-mobile mob-item">
+                <a
+                  class="contacts-mobile-email color-contacts link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div>
+            <ul class="social-list list">
+              <li class="social-list-item">
+                <a href="" class="social-list-link">
+                  <svg class="social-list-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link">
+                  <svg class="social-list-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link">
+                  <svg class="social-list-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link">
+                  <svg class="social-list-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <address class="nav-address-mobile">
-          <ul class="address-mobile list">
-            <li class="contacts-mobile mob-item">
-              <a
-                class="contacts-mobile-tel color-contacts link"
-                href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li class="contacts-mobile mob-item">
-              <a
-                class="contacts-mobile-email color-contacts link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-        </address>
+
+        <!-- ======================================End Mobile Menu================== -->
       </div>
     </header>
 
@@ -587,5 +631,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
