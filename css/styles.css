@@ -51,8 +51,7 @@ img {
 @media screen and (min-width: 430px) {
   .container {
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+     margin: 0 auto;
   }
 }
 
@@ -66,6 +65,25 @@ img {
     width: 1158px;
   }
 }
+
+/* ==========================Mobile Menu================== */
+/* .menu-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ==========================Mobile Menu================== */
+
 
 /* .container {
   width: 1158px;
@@ -156,7 +174,24 @@ img {
   top: 0;
   left: 0;
   background-color: var(--color-main-cloud);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition: opacity var(--transition),
+        visibility var(--transition);
 }
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+
+}
+
+
+
+
 
 .mobile-menu-container {
   position: relative;
@@ -183,7 +218,7 @@ img {
   transition: background-color var(--transition), fill var(--transition);
 }
 
- .mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:hover,
 .mobile-menu-close-btn:focus {
   background-color: var(--accent-pressed-state);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -195,13 +230,13 @@ img {
 .site-nav-link-mobile {
   margin-bottom: 40px;
   font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+  font-size: 36px;
+  line-height: 1.11;
 
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 
-color: var(--color-main-text);
+  color: var(--color-main-text);
 }
 
 .current-mobile {
@@ -210,41 +245,45 @@ color: var(--color-main-text);
 
 .nav-address-mobile {
   font-style: normal;
-  }
+   }
 
-.mob-item {
-    padding-left: 40px;
-    
+.address-mobile {
+display: block;
+}
+
+
+.mob-item { 
+  
+   /* padding-left: 40px;  */
 }
 .mob-item:not(:first-child) {
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 .contacts-mobile-tel {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+  font-size: 36px;
+  line-height: 1.11;
 
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .color-contacts {
   color: var(--color-secondary-text);
-   transition: color var(--transition);
+  transition: color var(--transition);
 }
 
+.color-contacts:hover,
 .color-contacts:focus {
-color: var(--accent);
+  color: var(--accent);
 }
 
 .contacts-mobile-email {
   font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-
-
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 
