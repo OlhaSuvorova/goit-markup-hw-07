@@ -1,0 +1,64 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .section-features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .features-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .el-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-main-text);
+    margin-bottom: 8px;
+  }
+
+  .el-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary-text);
+  }
+
+  .icon-strategy:hover {
+    cursor: pointer;
+    fill: var(--accent);
+    transition: var(--transition);
+  }
+
+  .icon-features {
+    height: 112px;
+    background: var(--color-main-cloud);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-main-text);
+    margin-bottom: 72px;
+  }
+
+  .cart-features {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+}
