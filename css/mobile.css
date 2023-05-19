@@ -46,23 +46,99 @@ img {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (min-width: 430px) {
-  .container {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width: 1157px) {
+  .icon-features {
+    display: none;
+  }
+
+  .cart-features:not(:first-child) {
+    margin-top: 72px;
+  }
+
+  /* .section-features .cart-features:not(:first-child) {
+    margin-top: 72px;
+  } */
+
+  .el-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--color-secondary-text);
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+  .menu,
+  .nav-address {
+    display: none;
+  }
+
   .container {
-    width: 738px;
+    max-width: 428px;
+  }
+
+  .el-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: var(--color-main-text);
+    margin-bottom: 8px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1158px;
-  }
+
+/* ............................Logotype................... */
+.logotype {
+  margin-right: 76px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.logo {
+  margin-right: 76px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo-header-blue {
+  color: var(--color-main-text);
+}
+.logo-footer-cloud {
+  color: var(--color-main-cloud);
+}
+
+/* -------------------------Features--------------------------- */
+
+.visually-hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
