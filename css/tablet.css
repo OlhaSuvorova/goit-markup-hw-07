@@ -79,6 +79,17 @@ img {
     color: var(--color-main-text);
     margin-bottom: 8px;
   }
+  /* .............................About Team....................... */
+  /* @media screen and (min-width: 1157px) {
+} */
+
+  .section-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    border-radius: 0px 0px 4px 4px;
+  }
 }
 
 /* .el-description {
