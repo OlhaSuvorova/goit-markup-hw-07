@@ -101,3 +101,17 @@ img {
 /* -------------------------features--------------------------- */
 
 /* ======================END=================== */
+
+/* ====================================Customers======================== */
+
+@media screen and (max-width: 767px) {
+  /* .section-customers {
+    justify-content: center;
+    align-items: center; */
+  }
+  .customers-list-link {
+    
+  }
+}
+
+/* ====================================END Customers======================== */
