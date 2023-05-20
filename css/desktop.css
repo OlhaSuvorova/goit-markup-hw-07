@@ -3,6 +3,15 @@
     max-width: 1158px;
   }
 
+  .section-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+
   .section-features {
     padding-top: 120px;
     padding-bottom: 120px;
