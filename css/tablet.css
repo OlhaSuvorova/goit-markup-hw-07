@@ -43,15 +43,17 @@ img {
   text-decoration: none;
 }
 
-/* .container {
-  padding-left: 15px;
-  padding-right: 15px;
-} */
-
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
     max-width: 768px;
   }
+
+  .contacts {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
   .hero {
     padding: 112px 0;
     max-width: 768px;
@@ -87,9 +89,6 @@ img {
     color: var(--color-main-text);
     margin-bottom: 8px;
   }
-  /* .............................About Team....................... */
-  /* @media screen and (min-width: 1157px) {
-} */
 
   .section-list {
     display: flex;
@@ -136,19 +135,30 @@ img {
   }
 }
 
-/* .el-description {
-    max-width: 396px;
-  }
-
-  */
-
-/* -------------------------features--------------------------- */
+/* -----------------------features--------------------------- */
 
 /* ======================END=================== */
 
 /* ====================================FROM 768s======================== */
 
 @media screen and (min-width: 768px) {
+  .contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary-text);
+
+    transition: color var(--transition);
+
+    margin-right: 0;
+  }
+
+  .contacts:hover,
+  .contacts:focus {
+    color: var(--accent-pressed-state);
+  }
+
   .footer-div {
     display: flex;
     align-items: baseline;
