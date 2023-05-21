@@ -153,4 +153,18 @@
   .social-list-icon {
     fill: var(--color-main-cloud);
   }
+  .address-footer {
+    padding: 96px 0;
+    background: var(--color-main-text);
+    color: var(--color-main-cloud);
+  }
+
+  /* =======================footer================ */
+
+  .footer-logo-text {
+    margin-right: 120px;
+  }
+  .footer-subscribe {
+    margin-left: 80px;
+  }
 }
