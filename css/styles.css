@@ -625,9 +625,13 @@ img {
 } */
 
 /* .........................Portfolio................... */
-.section {
-  padding-top: 96px;
+/* .section {
+  padding-top: 100px;
   padding-bottom: 120px;
+} */
+
+.btn-list-item:not(:last-child) {
+  margin-right: 24px;
 }
 
 .gallery {
@@ -635,10 +639,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-
-.btn-list-item:not(:last-child) {
-  margin-right: 24px;
 }
 
 .cart-gallery {
