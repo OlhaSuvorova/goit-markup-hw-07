@@ -129,6 +129,11 @@ img {
   .btn-list {
     margin-bottom: 64px;
   }
+
+  .gallery {
+    gap: 72px 24px;
+    min-width: 768px;
+  }
 }
 
 /* .el-description {
