@@ -43,19 +43,27 @@ img {
   text-decoration: none;
 }
 
-.container {
+/* .container {
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    max-width: 768px;
+  }
+  .hero {
+    padding: 112px 0;
+    max-width: 768px;
+  }
+
+  .hero-title {
+    margin-bottom: 26px;
+  }
+
   .section-features {
     padding-top: 96px;
     padding-bottom: 96px;
-  }
-
-  .container {
-    width: 738px;
   }
 
   .features-menu {
@@ -97,11 +105,29 @@ img {
 
   /* ==============================FOOTER==================== */
 
+  .footer-div {
+    width: 552px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
   .footer-logo-text {
     margin-right: 24px;
   }
 
-  .footer-subscribe {
+  .subscribe-title {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* ======================PORTFOLIO--------------- */
+  .section {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .btn-list {
+    margin-bottom: 64px;
   }
 }
 
