@@ -447,7 +447,7 @@ img {
 /* @media screen and (min-width: 1157px) {
 } */
 
-.title-item {
+/* .title-item {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -524,7 +524,7 @@ img {
 
 .social-list-icon {
   fill: var(--color-main-cloud);
-}
+} */
 
 /* ................................Customers.......................... */
 /* .title-customars {
@@ -573,42 +573,42 @@ img {
 } */
 
 /* ................................footer............................. */
-.address-footer {
+/* .address-footer {
   padding: 100px 0;
   background: var(--color-main-text);
   color: var(--color-main-cloud);
-}
+} */
 
-.footer-text {
-  width: 264px;
-  margin-right: auto;
-}
-
-.footer-text-social-media {
-  width: 208px;
-  font-weight: 500;
-  margin-bottom: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-color);
-}
-
-.footer-div {
+/* .footer-div {
   display: flex;
   align-items: baseline;
 }
 
 .footer-logo-text {
   margin-right: 120px;
-}
+} */
 
-.social-media {
+/* .footer-text {
+  width: 264px;
+  margin-right: auto;
+} */
+
+/* .footer-text-social-media {
+  width: 208px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+} */
+
+/* .social-media {
   display: flex;
   justify-content: center;
   gap: 16px;
-}
+} */
 
-.social-media-link {
+/* .social-media-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -622,7 +622,7 @@ img {
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: #31d0aa;
-}
+} */
 
 /* .........................Portfolio................... */
 .section {
@@ -769,7 +769,7 @@ img {
 
 /* ...........................Footer Subscribe.................... */
 
-.footer-subscribe {
+/* .footer-subscribe {
   margin-left: 80px;
 }
 
@@ -825,7 +825,7 @@ img {
 .subscribe-form-submit:hover,
 .subscribe-form-submit:focus {
   background-color: var(--accent-pressed-state);
-}
+} */
 
 /* .....................................modal form...................... */
 
