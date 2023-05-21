@@ -2,6 +2,14 @@
   .container {
     max-width: 1158px;
   }
+  .address {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
 
   .section-customers {
     padding-top: 120px;
@@ -166,5 +174,11 @@
   }
   .footer-subscribe {
     margin-left: 80px;
+  }
+
+  /* ======================PORTFOLIO--------------- */
+  .section {
+    padding-top: 100px;
+    padding-bottom: 120px;
   }
 }
