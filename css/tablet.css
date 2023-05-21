@@ -90,6 +90,19 @@ img {
     gap: 64px 24px;
     border-radius: 0px 0px 4px 4px;
   }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  /* ==============================FOOTER==================== */
+
+  .footer-logo-text {
+    margin-right: 24px;
+  }
+
+  .footer-subscribe {
+  }
 }
 
 /* .el-description {
@@ -102,16 +115,17 @@ img {
 
 /* ======================END=================== */
 
-/* ====================================Customers======================== */
+/* ====================================FROM 768s======================== */
 
-@media screen and (max-width: 767px) {
-  /* .section-customers {
-    justify-content: center;
-    align-items: center; */
+@media screen and (min-width: 768px) {
+  .footer-div {
+    display: flex;
+    align-items: baseline;
   }
-  .customers-list-link {
-    
+  .footer-text {
+    width: 264px;
+    margin-right: auto;
   }
 }
 
-/* ====================================END Customers======================== */
+/* ====================================END FROM 768======================== */
