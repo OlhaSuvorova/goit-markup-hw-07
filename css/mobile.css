@@ -165,32 +165,19 @@ img {
 }
 
 /* .......................Contact..................... */
-.contacts {
+
+/* .contacts-email {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
-
-  transition: color var(--transition);
-}
-
-.contacts:hover,
-.contacts:focus {
-  color: var(--accent-pressed-state);
-}
-
-.contacts-email {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-secondary-text);
-}
+} */
 
 .contacts-tel {
-  font-size: 16px;
+  /* font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-secondary-text);
+  color: var(--color-secondary-text); */
   margin-right: 0;
 }
 /* ====================================HERO================ */
@@ -474,8 +461,6 @@ img {
     padding: 96px 0;
     background: var(--color-main-text);
     color: var(--color-main-cloud);
-  }
-  .hero-title {
   }
 }
 
