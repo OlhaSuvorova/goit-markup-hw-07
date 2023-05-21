@@ -117,11 +117,6 @@ img {
   align-items: center;
 }
 
-.address {
-  display: flex;
-  align-items: center;
-}
-
 .nav-address {
   font-style: normal;
 }
@@ -198,6 +193,93 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
   margin-right: 0;
+}
+/* ====================================HERO================ */
+.hero {
+  padding: 188px 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: var(--primary-color);
+  background-color: var(--color-main-text);
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===========================Buttons================= */
+.modal-btn {
+  font-family: inherit;
+  padding: 16px 32px;
+  background: var(--accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  border: none;
+  line-height: 1.5;
+  color: var(--primary-color);
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+
+  transition: background-color var(--transition);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-pressed-state);
+  color: var(--primary-color);
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 12px 24px;
+  letter-spacing: 0.04em;
+  background-color: var(--color-main-cloud);
+  color: var(--accent);
+  cursor: pointer;
+
+  transition: color var(--transition), background-color var(--transition),
+    box-shadow var(--transition), border-color var(--transition);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-pressed-state);
+  color: var(--primary-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  border: 1px solid transparent;
+}
+
+.btn-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 /* ==================Team================= */
@@ -295,6 +377,9 @@ img {
 .subscribe-form-submit:focus {
   background-color: var(--accent-pressed-state);
 }
+.footer-text {
+  text-align: left;
+}
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%RULLS THIS MEDIA%%%%%%%%%%%%%%%%%%%%%%%% */
 
@@ -322,6 +407,8 @@ img {
     background: var(--color-main-text);
     color: var(--color-main-cloud);
   }
+  .hero-title {
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -343,6 +430,10 @@ img {
   .nav-address {
     display: none;
   }
+  .address {
+    display: flex;
+    align-items: center;
+  }
 
   .page-header {
     padding: 24px 0;
@@ -351,10 +442,16 @@ img {
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
-  .page-header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  /* ===============================HERO============== */
+  .hero {
+    padding: 112px 0;
+    max-width: 428px;
+  }
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    margin-bottom: 72px;
   }
 
   .section-features {
@@ -426,9 +523,6 @@ img {
     gap: 72px;
   }
 
-  .footer-text {
-    text-align: left;
-  }
   .social-media-div {
     text-align: center;
   }
@@ -438,8 +532,17 @@ img {
   }
 
   .subscribe-form-input {
-    min-width: 398px;
+    width: 100%;
+    /* min-width: 398px; */
     margin-bottom: 16px;
+  }
+
+  /* ======================PORTFOLIO--------------- */
+  .section {
+    padding: 48px;
+  }
+  .btn-list {
+    margin-bottom: 48px;
   }
 }
 
