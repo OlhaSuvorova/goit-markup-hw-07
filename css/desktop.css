@@ -99,9 +99,11 @@
     color: var(--color-main-text);
     margin-bottom: 72px;
   }
+
   .section-about {
     padding-bottom: 120px;
   }
+
   .cart-about {
     flex-basis: calc((100% - 48px) / 3);
   }
@@ -114,11 +116,13 @@
   .description-align {
     text-align: center;
   }
+
   .section-team {
     padding-top: 120px;
     padding-bottom: 120px;
     background: var(--color-main-cloud);
   }
+
   .section-list {
     display: flex;
     flex-wrap: wrap;
@@ -173,8 +177,6 @@
     color: var(--color-main-cloud);
   }
 
-  /* =======================footer================ */
-
   .footer-logo-text {
     margin-right: 120px;
   }
@@ -182,7 +184,7 @@
     margin-left: 80px;
   }
 
-  /* ======================PORTFOLIO--------------- */
+  /* ======================PORTFOLIO=================*/
   .section {
     padding-top: 100px;
     padding-bottom: 120px;
