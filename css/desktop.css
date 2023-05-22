@@ -2,12 +2,18 @@
   .container {
     width: 1158px;
   }
+
   .address {
     display: flex;
     align-items: center;
   }
   .contacts-email {
     margin-right: 40px;
+  }
+
+  .hero {
+    padding: 188px 0;
+    max-width: 1440px;
   }
 
   .hero-title {
@@ -180,5 +186,12 @@
   .section {
     padding-top: 100px;
     padding-bottom: 120px;
+  }
+  .cart-gallery {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+  .gallery {
+    column-gap: 24px;
+    row-gap: 48px;
   }
 }
