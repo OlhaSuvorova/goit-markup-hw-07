@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-color: #ffffff;
   --color-main-text: #2e2f42;
   --color-main-cloud: #f4f4fd;
@@ -32,8 +32,10 @@ ol {
   padding-left: 0;
 }
 
-img {
+.img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -41,7 +43,7 @@ img {
 }
 .link {
   text-decoration: none;
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
@@ -127,6 +129,9 @@ img {
   }
   .btn-list {
     margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .gallery {
@@ -166,6 +171,13 @@ img {
   .footer-text {
     width: 264px;
     margin-right: auto;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
