@@ -529,12 +529,6 @@ img {
   max-width: 356px;
 }
 
-@media screen and (max-width: 767px) {
-  .cart-gallery {
-    max-width: 396px;
-  }
-}
-
 .link-gallery {
   display: block;
   transition: box-shadow var(--transition);
