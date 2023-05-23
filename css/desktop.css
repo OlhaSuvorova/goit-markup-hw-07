@@ -144,6 +144,11 @@
     flex-basis: calc((100% - 72px) / 4);
   }
 
+  .footer-div {
+    display: flex;
+    align-items: baseline;
+  }
+
   .social-list {
     display: flex;
     justify-content: center;
@@ -171,6 +176,7 @@
   .social-list-icon {
     fill: var(--color-main-cloud);
   }
+
   .address-footer {
     padding: 96px 0;
     background: var(--color-main-text);
