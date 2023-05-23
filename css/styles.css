@@ -496,8 +496,11 @@ img {
 }
 
 .subscribe-form-submit {
+  display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 
   gap: 16px;
   padding: 8px 24px;
@@ -871,7 +874,7 @@ img {
     z-index: 100;
     top: 0;
     left: 0;
-    background-color: var(--color-main-cloud);
+    background-color: var(--primary-color);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -981,7 +984,7 @@ img {
     margin-top: 284px;
   }
   .mob-item {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .mobile-social-links {
@@ -990,13 +993,8 @@ img {
 
   .mobile-social-list {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     gap: 56px;
-  }
-
-  .mobile-social-list {
-    gap: 24px;
   }
 
   .social-mobile-link {
@@ -1040,10 +1038,6 @@ img {
 
   .cart-features:not(:first-child) {
     margin-top: 72px;
-  }
-
-  .el-description {
-    max-width: 396px;
   }
 
   .el-title {
@@ -1103,11 +1097,6 @@ img {
 
   .social-media-div {
     text-align: center;
-  }
-
-  .subscribe-form {
-    margin-top: 16px;
-    gap: 24px;
   }
 
   .subscribe-form-input {
