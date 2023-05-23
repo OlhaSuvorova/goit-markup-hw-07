@@ -60,14 +60,12 @@
   /* ==============================FOOTER==================== */
 
   .footer-div {
-    width: 552px;
-    flex-direction: row;
+    display: flex;
+    align-items: baseline;
     flex-wrap: wrap;
     gap: 72px 24px;
-  }
-
-  .footer-logo-text {
-    margin-right: 24px;
+    padding-left: 106px;
+    padding-right: 106px;
   }
 
   .subscribe-title {
@@ -113,14 +111,11 @@
     color: var(--accent-pressed-state);
   }
 
-  .footer-div {
-    display: flex;
-    align-items: baseline;
-  }
   .footer-text {
     width: 264px;
     margin-right: auto;
   }
+
   .mobile-menu {
     display: none;
   }
