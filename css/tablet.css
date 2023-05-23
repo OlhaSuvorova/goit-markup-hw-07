@@ -127,9 +127,7 @@
     display: flex;
     gap: 24px;
   }
-  .subscribe-form-submit {
-    display: flex;
-  }
+
   .btn-list-item:not(:last-child) {
     margin-right: 24px;
   }
