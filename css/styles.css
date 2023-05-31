@@ -750,8 +750,7 @@ img {
   left: 16px;
   transform: translateY(-50%);
   display: block;
-  width: 18px;
-  height: 24px;
+
   transition: fill var(--transition);
 }
 
